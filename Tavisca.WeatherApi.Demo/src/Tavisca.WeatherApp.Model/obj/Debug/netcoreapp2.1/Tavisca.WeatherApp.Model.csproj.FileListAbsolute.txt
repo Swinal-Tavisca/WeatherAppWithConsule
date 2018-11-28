@@ -1,0 +1,9 @@
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.deps.json
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.csprojAssemblyReference.cache
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.AssemblyInfoInputs.cache
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.AssemblyInfo.cs
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.pdb

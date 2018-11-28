@@ -1,0 +1,9 @@
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\bin\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.deps.json
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\bin\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\bin\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\obj\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.csprojAssemblyReference.cache
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\obj\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\obj\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.AssemblyInfoInputs.cache
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\obj\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.AssemblyInfo.cs
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\obj\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\test\Tavisca.Weather.UnitTest\obj\Debug\netcoreapp2.1\Tavisca.Weather.UnitTest.pdb
