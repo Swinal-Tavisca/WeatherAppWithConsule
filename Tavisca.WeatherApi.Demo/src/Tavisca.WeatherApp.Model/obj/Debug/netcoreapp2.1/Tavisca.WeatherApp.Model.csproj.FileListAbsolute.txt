@@ -7,3 +7,14 @@ C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.W
 C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.AssemblyInfo.cs
 C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.dll
 C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.RecyclableStreamPool.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.Redis.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Models.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Plugins.Json.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.Redis.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Plugins.Json.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.RecyclableStreamPool.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Models.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.WeatherApp.Model\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Model.csproj.CopyComplete

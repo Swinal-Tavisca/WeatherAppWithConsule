@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "04791c44527df708a51038071f260e3566123809"
+    "signature": "433681d34477e1e2a717ecb1a7c0b9235517fb56"
   },
   "compilationOptions": {},
   "targets": {
@@ -1425,6 +1425,32 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Tavisca.ServiceStack.Redis.Core/1.0.0-netCore": {
+        "dependencies": {
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Security": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/ServiceStack.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          },
+          "lib/netstandard1.3/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          },
+          "lib/netstandard1.3/ServiceStack.Redis.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          },
+          "lib/netstandard1.3/ServiceStack.Text.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.27.0"
+          }
+        }
+      },
       "Tavisca.Common.Plugins.Configuration.Core/1.0.0": {
         "dependencies": {
           "Consul": "0.7.2.1",
@@ -1436,6 +1462,25 @@
         },
         "runtime": {
           "Tavisca.Common.Plugins.Configuration.Core.dll": {}
+        }
+      },
+      "Tavisca.Common.Plugins.RecyclableStreamPool.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
+          "Tavisca.Platform.Common.Core": "1.0.0"
+        },
+        "runtime": {
+          "Tavisca.Common.Plugins.RecyclableStreamPool.Core.dll": {}
+        }
+      },
+      "Tavisca.Common.Plugins.Redis.Core/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "Tavisca.Platform.Common.Core": "1.0.0",
+          "Tavisca.ServiceStack.Redis.Core": "1.0.0-netCore"
+        },
+        "runtime": {
+          "Tavisca.Common.Plugins.Redis.Core.dll": {}
         }
       },
       "Tavisca.Platform.Common.Core/1.0.0": {
@@ -1468,6 +1513,16 @@
           "Tavisca.Platform.Common.Models.Core.dll": {}
         }
       },
+      "Tavisca.Platform.Common.Plugins.Json.Core/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "Tavisca.Common.Plugins.RecyclableStreamPool.Core": "1.0.0",
+          "Tavisca.Platform.Common.Core": "1.0.0"
+        },
+        "runtime": {
+          "Tavisca.Platform.Common.Plugins.Json.Core.dll": {}
+        }
+      },
       "Tavisca.WeatherApp.Core/1.0.0": {
         "dependencies": {
           "Tavisca.WeatherApp.Model": "1.0.0",
@@ -1478,6 +1533,11 @@
         }
       },
       "Tavisca.WeatherApp.Model/1.0.0": {
+        "dependencies": {
+          "Tavisca.Common.Plugins.Redis.Core": "1.0.0",
+          "Tavisca.Platform.Common.Core": "1.0.0",
+          "Tavisca.Platform.Common.Plugins.Json.Core": "1.0.0"
+        },
         "runtime": {
           "Tavisca.WeatherApp.Model.dll": {}
         }
@@ -2351,7 +2411,24 @@
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
+    "Tavisca.ServiceStack.Redis.Core/1.0.0-netCore": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t3dfBzzzWtFSU7jB81+2Ooh9SUy7Uw03Ebxs6eMAnJKSy/sQDAETBK6cxl3ISxeEm3dTUfvhFXzeoJBpwD3gdQ==",
+      "path": "tavisca.servicestack.redis.core/1.0.0-netcore",
+      "hashPath": "tavisca.servicestack.redis.core.1.0.0-netcore.nupkg.sha512"
+    },
     "Tavisca.Common.Plugins.Configuration.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tavisca.Common.Plugins.RecyclableStreamPool.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tavisca.Common.Plugins.Redis.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2362,6 +2439,11 @@
       "sha512": ""
     },
     "Tavisca.Platform.Common.Models.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tavisca.Platform.Common.Plugins.Json.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\submodules\Tavisca.Common.Plugins.Redis\Tavisca.Common.Plugins.Redis.Core.csproj" />
+    <ProjectReference Include="..\submodules\Tavisca.Platform.Common.Plugins.Json\Tavisca.Platform.Common.Plugins.Json.Core.csproj" />
+    <ProjectReference Include="..\submodules\Tavisca.Platform.Common\Tavisca.Platform.Common.Core.csproj" />
+  </ItemGroup>
+
 </Project>

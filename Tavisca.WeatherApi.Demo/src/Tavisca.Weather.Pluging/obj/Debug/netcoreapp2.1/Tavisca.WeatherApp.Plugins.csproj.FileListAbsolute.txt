@@ -18,3 +18,9 @@ C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.W
 C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Plugins.csproj.CopyComplete
 C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Plugins.dll
 C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\obj\Debug\netcoreapp2.1\Tavisca.WeatherApp.Plugins.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.RecyclableStreamPool.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.Redis.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Plugins.Json.Core.dll
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.RecyclableStreamPool.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.Redis.Core.pdb
+C:\Users\swinal\Desktop\nextgen-onboarding\Tavisca.WeatherApi.Demo\src\Tavisca.Weather.Pluging\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Plugins.Json.Core.pdb

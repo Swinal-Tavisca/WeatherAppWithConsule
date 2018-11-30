@@ -2215,6 +2215,28 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "Tavisca.ServiceStack.Redis.Core/1.0.0-netCore": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Collections.Specialized": "4.0.1",
+          "System.Net.NameResolution": "4.0.0",
+          "System.Net.Security": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/ServiceStack.Common.dll": {},
+          "lib/netstandard1.3/ServiceStack.Interfaces.dll": {},
+          "lib/netstandard1.3/ServiceStack.Redis.dll": {},
+          "lib/netstandard1.3/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/ServiceStack.Common.dll": {},
+          "lib/netstandard1.3/ServiceStack.Interfaces.dll": {},
+          "lib/netstandard1.3/ServiceStack.Redis.dll": {},
+          "lib/netstandard1.3/ServiceStack.Text.dll": {}
+        }
+      },
       "Tavisca.Common.Plugins.Configuration.Core/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2231,6 +2253,35 @@
         },
         "runtime": {
           "bin/placeholder/Tavisca.Common.Plugins.Configuration.Core.dll": {}
+        }
+      },
+      "Tavisca.Common.Plugins.RecyclableStreamPool.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.IO.RecyclableMemoryStream": "1.2.2",
+          "Tavisca.Platform.Common.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tavisca.Common.Plugins.RecyclableStreamPool.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tavisca.Common.Plugins.RecyclableStreamPool.Core.dll": {}
+        }
+      },
+      "Tavisca.Common.Plugins.Redis.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Tavisca.Platform.Common.Core": "1.0.0",
+          "Tavisca.ServiceStack.Redis.Core": "1.0.0-netCore"
+        },
+        "compile": {
+          "bin/placeholder/Tavisca.Common.Plugins.Redis.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tavisca.Common.Plugins.Redis.Core.dll": {}
         }
       },
       "Tavisca.Platform.Common.Core/1.0.0": {
@@ -2273,6 +2324,21 @@
           "bin/placeholder/Tavisca.Platform.Common.Models.Core.dll": {}
         }
       },
+      "Tavisca.Platform.Common.Plugins.Json.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "Tavisca.Common.Plugins.RecyclableStreamPool.Core": "1.0.0",
+          "Tavisca.Platform.Common.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tavisca.Platform.Common.Plugins.Json.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tavisca.Platform.Common.Plugins.Json.Core.dll": {}
+        }
+      },
       "Tavisca.WeatherApp.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -2290,6 +2356,11 @@
       "Tavisca.WeatherApp.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Tavisca.Common.Plugins.Redis.Core": "1.0.0",
+          "Tavisca.Platform.Common.Core": "1.0.0",
+          "Tavisca.Platform.Common.Plugins.Json.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Tavisca.WeatherApp.Model.dll": {}
         },
@@ -7290,10 +7361,40 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "Tavisca.ServiceStack.Redis.Core/1.0.0-netCore": {
+      "sha512": "t3dfBzzzWtFSU7jB81+2Ooh9SUy7Uw03Ebxs6eMAnJKSy/sQDAETBK6cxl3ISxeEm3dTUfvhFXzeoJBpwD3gdQ==",
+      "type": "package",
+      "path": "tavisca.servicestack.redis.core/1.0.0-netcore",
+      "files": [
+        "lib/netstandard1.3/ServiceStack.Common.dll",
+        "lib/netstandard1.3/ServiceStack.Common.pdb",
+        "lib/netstandard1.3/ServiceStack.Common.xml",
+        "lib/netstandard1.3/ServiceStack.Interfaces.dll",
+        "lib/netstandard1.3/ServiceStack.Redis.deps.json",
+        "lib/netstandard1.3/ServiceStack.Redis.dll",
+        "lib/netstandard1.3/ServiceStack.Redis.pdb",
+        "lib/netstandard1.3/ServiceStack.Redis.xml",
+        "lib/netstandard1.3/ServiceStack.Text.dll",
+        "lib/netstandard1.3/ServiceStack.Text.pdb",
+        "lib/netstandard1.3/ServiceStack.Text.xml",
+        "tavisca.servicestack.redis.core.1.0.0-netcore.nupkg.sha512",
+        "tavisca.servicestack.redis.core.nuspec"
+      ]
+    },
     "Tavisca.Common.Plugins.Configuration.Core/1.0.0": {
       "type": "project",
       "path": "../submodules/Tavisca.Common.Plugins.Configuration/Tavisca.Common.Plugins.Configuration.Core.csproj",
       "msbuildProject": "../submodules/Tavisca.Common.Plugins.Configuration/Tavisca.Common.Plugins.Configuration.Core.csproj"
+    },
+    "Tavisca.Common.Plugins.RecyclableStreamPool.Core/1.0.0": {
+      "type": "project",
+      "path": "../submodules/Tavisca.Common.Plugins.RecyclableStreamPool/Tavisca.Common.Plugins.RecyclableStreamPool.Core.csproj",
+      "msbuildProject": "../submodules/Tavisca.Common.Plugins.RecyclableStreamPool/Tavisca.Common.Plugins.RecyclableStreamPool.Core.csproj"
+    },
+    "Tavisca.Common.Plugins.Redis.Core/1.0.0": {
+      "type": "project",
+      "path": "../submodules/Tavisca.Common.Plugins.Redis/Tavisca.Common.Plugins.Redis.Core.csproj",
+      "msbuildProject": "../submodules/Tavisca.Common.Plugins.Redis/Tavisca.Common.Plugins.Redis.Core.csproj"
     },
     "Tavisca.Platform.Common.Core/1.0.0": {
       "type": "project",
@@ -7304,6 +7405,11 @@
       "type": "project",
       "path": "../submodules/Tavisca.Platform.Common.Models/Tavisca.Platform.Common.Models.Core.csproj",
       "msbuildProject": "../submodules/Tavisca.Platform.Common.Models/Tavisca.Platform.Common.Models.Core.csproj"
+    },
+    "Tavisca.Platform.Common.Plugins.Json.Core/1.0.0": {
+      "type": "project",
+      "path": "../submodules/Tavisca.Platform.Common.Plugins.Json/Tavisca.Platform.Common.Plugins.Json.Core.csproj",
+      "msbuildProject": "../submodules/Tavisca.Platform.Common.Plugins.Json/Tavisca.Platform.Common.Plugins.Json.Core.csproj"
     },
     "Tavisca.WeatherApp.Core/1.0.0": {
       "type": "project",
@@ -7361,6 +7467,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://stage-packagegallery.tavisca.com/api/odata": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

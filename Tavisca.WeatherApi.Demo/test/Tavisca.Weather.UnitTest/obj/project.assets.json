@@ -705,6 +705,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://stage-packagegallery.tavisca.com/api/odata": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

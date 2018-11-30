@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Tavisca.Platform.Common.WebApi.Middlewares;
+using Tavisca.WetherApp.Web.Middleware.Extention;
 
 namespace Tavisca.WetherApp.Web
 {
@@ -41,6 +43,11 @@ namespace Tavisca.WetherApp.Web
             }
 
             app.UseHttpsRedirection();
+
+            app.UseMiddleware<RewindContextStreamMiddleware>();
+            app.UseExceptionHandlerInjector();
+            app.UseLogginerHandler();
+
             app.UseMvc();
         }
     }

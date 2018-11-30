@@ -23,17 +23,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Models.Core", "src\submodules\Tavisca.Platform.Common.Models\Tavisca.Platform.Common.Models.Core.csproj", "{8B8EE89A-D6A6-49F6-BD61-D79C5FC291DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.WeatherApp.Core", "src\Tavisca.Weather.Core\Tavisca.WeatherApp.Core.csproj", "{662C71A8-EA40-4E49-899A-B8CC37269DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.WeatherApp.Core", "src\Tavisca.Weather.Core\Tavisca.WeatherApp.Core.csproj", "{662C71A8-EA40-4E49-899A-B8CC37269DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.WeatherApp.Plugins", "src\Tavisca.Weather.Pluging\Tavisca.WeatherApp.Plugins.csproj", "{D8E472CE-13D1-4D88-837D-EC3DDBE9BAB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.WeatherApp.Plugins", "src\Tavisca.Weather.Pluging\Tavisca.WeatherApp.Plugins.csproj", "{D8E472CE-13D1-4D88-837D-EC3DDBE9BAB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Weather.UnitTest", "test\Tavisca.Weather.UnitTest\Tavisca.Weather.UnitTest.csproj", "{238C0BA9-2C1A-45AC-B268-23008CF60DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Weather.UnitTest", "test\Tavisca.Weather.UnitTest\Tavisca.Weather.UnitTest.csproj", "{238C0BA9-2C1A-45AC-B268-23008CF60DFD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.Configuration.Core", "src\submodules\Tavisca.Common.Plugins.Configuration\Tavisca.Common.Plugins.Configuration.Core.csproj", "{C0E2EA91-BDB4-4600-BED3-D16349230ABF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.WeatherApp.Model", "src\Tavisca.WeatherApp.Model\Tavisca.WeatherApp.Model.csproj", "{D5678447-BC5C-42C0-A4A4-519FD4F0C85D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.WeatherApp.Model", "src\Tavisca.WeatherApp.Model\Tavisca.WeatherApp.Model.csproj", "{D5678447-BC5C-42C0-A4A4-519FD4F0C85D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.WeatherApp.OpenWeatherAdapter", "src\Tavisca.WeatherApp.OpenWeatherAdapter\Tavisca.WeatherApp.OpenWeatherAdapter.csproj", "{3BF2E278-9057-45A3-8693-FFF8E11A5C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.WeatherApp.OpenWeatherAdapter", "src\Tavisca.WeatherApp.OpenWeatherAdapter\Tavisca.WeatherApp.OpenWeatherAdapter.csproj", "{3BF2E278-9057-45A3-8693-FFF8E11A5C00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.RecyclableStreamPool.Core", "src\submodules\Tavisca.Common.Plugins.RecyclableStreamPool\Tavisca.Common.Plugins.RecyclableStreamPool.Core.csproj", "{E07C85E3-0AB7-4DB7-A5B8-F4E18C7CCD71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.Redis.Core", "src\submodules\Tavisca.Common.Plugins.Redis\Tavisca.Common.Plugins.Redis.Core.csproj", "{4C72A4DF-01B6-4E35-A212-F99770307F43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Plugins.Json.Core", "src\submodules\Tavisca.Platform.Common.Plugins.Json\Tavisca.Platform.Common.Plugins.Json.Core.csproj", "{20CCBC59-F7D3-4D8B-A076-A25A431F5B40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.WebApi.Core", "src\submodules\Tavisca.Platform.Common.WebApi\Tavisca.Platform.Common.WebApi.Core.csproj", "{C01FB114-5BA2-4C1A-A7F2-FAC663529D93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +89,22 @@ Global
 		{3BF2E278-9057-45A3-8693-FFF8E11A5C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF2E278-9057-45A3-8693-FFF8E11A5C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF2E278-9057-45A3-8693-FFF8E11A5C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07C85E3-0AB7-4DB7-A5B8-F4E18C7CCD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07C85E3-0AB7-4DB7-A5B8-F4E18C7CCD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07C85E3-0AB7-4DB7-A5B8-F4E18C7CCD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07C85E3-0AB7-4DB7-A5B8-F4E18C7CCD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C72A4DF-01B6-4E35-A212-F99770307F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C72A4DF-01B6-4E35-A212-F99770307F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C72A4DF-01B6-4E35-A212-F99770307F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C72A4DF-01B6-4E35-A212-F99770307F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CCBC59-F7D3-4D8B-A076-A25A431F5B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CCBC59-F7D3-4D8B-A076-A25A431F5B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CCBC59-F7D3-4D8B-A076-A25A431F5B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CCBC59-F7D3-4D8B-A076-A25A431F5B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01FB114-5BA2-4C1A-A7F2-FAC663529D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01FB114-5BA2-4C1A-A7F2-FAC663529D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01FB114-5BA2-4C1A-A7F2-FAC663529D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01FB114-5BA2-4C1A-A7F2-FAC663529D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +120,10 @@ Global
 		{C0E2EA91-BDB4-4600-BED3-D16349230ABF} = {238CFDD2-1B69-4F57-AD00-3CAFC9CC274B}
 		{D5678447-BC5C-42C0-A4A4-519FD4F0C85D} = {4BF839B3-3750-4792-914D-4F3103BE6B49}
 		{3BF2E278-9057-45A3-8693-FFF8E11A5C00} = {A76B01E7-E3D5-4D77-963D-822F36CA379D}
+		{E07C85E3-0AB7-4DB7-A5B8-F4E18C7CCD71} = {238CFDD2-1B69-4F57-AD00-3CAFC9CC274B}
+		{4C72A4DF-01B6-4E35-A212-F99770307F43} = {238CFDD2-1B69-4F57-AD00-3CAFC9CC274B}
+		{20CCBC59-F7D3-4D8B-A076-A25A431F5B40} = {238CFDD2-1B69-4F57-AD00-3CAFC9CC274B}
+		{C01FB114-5BA2-4C1A-A7F2-FAC663529D93} = {238CFDD2-1B69-4F57-AD00-3CAFC9CC274B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {459D9D9E-333C-4FA4-B534-9324F4C539B5}
